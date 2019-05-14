@@ -65,7 +65,6 @@ class ViewController: UIViewController {
         redView.heightAnchor.constraint(equalTo: self.blueView.heightAnchor).isActive = true
         
         redView.leftAnchor.constraint(equalTo: self.view.leftAnchor, constant: 20).isActive = true
-        
     }
     
     func createGreenViewConstraint() {
